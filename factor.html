@@ -1,0 +1,50 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+	<title>My Health Target</title>
+	<link rel="stylesheet" type="text/css" href="main.css">
+</head>
+<body>
+	<header>
+		<nav>
+			Nav Bar - Log in
+		</nav>
+	</header>
+	<main>
+		<section>
+			<h1>Add a new entry</h1>
+			-Hero Image-
+		</section>
+		<section>
+			<div>
+				<label>What do you want to record?</label>
+				<button>Food</button><button>Activity</button><button>Event</button>
+			</div>
+			<div>
+					<label>Date/Time</label>
+					<input type="time" name="time" placeholder="" id="time">
+					<input type="date" name="date" placeholder="" id="date">
+				</div>
+			<div>
+				this form will change based on thing you are recording<br>
+					<label>What did you eat?</label>
+					<input type="text" name="food" placeholder="type a food" id="food">
+				</div>
+				<div>
+					<label>Allergen tags:</label>
+					<input type="text" name="allergen-tags" placeholder="ex: gluten, dairy..." id="allergen-tags">
+				</div>
+				<div>
+					<label>What activity did you do?</label>
+					<input type="text" list="activities" />
+					<datalist id="activities">
+					  <option>Took a nap</option>
+					  <option>Went for a run</option>
+					  <option>Did yoga</option>
+					  <option>Spent time with a friend</option>
+					  <option>Stressful meeting</option>
+					  <option>Was running late</option>
+					</datalist>
+				</div>
+			</form>
+		</section>
