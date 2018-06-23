@@ -1,0 +1,61 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+	<title>My Health Target</title>
+	<link rel="stylesheet" type="text/css" href="main.css">
+</head>
+<body>
+	<header>
+		<nav>
+			Nav Bar - Log out
+		</nav>
+	</header>
+	<main>
+		<section>
+			<h1>Add a new symptom</h1>
+			-Hero Image-
+		</section>
+		<section>
+			<div>
+				<label>What do you want to record?</label>
+				<button>Symptom</button><button>Mood/Feeling</button>
+			</div>
+			<div>
+					<label>Date/Time</label>
+					<input type="time" name="time" placeholder="" id="time">
+					<input type="date" name="date" placeholder="" id="date">
+				</div>
+			
+				this form will change based on thing you are recording<br>
+					<div>
+					<label>What symptom are you experiencing?</label>
+					<input type="text" list="symptoms" />
+					<datalist id="symptoms">
+					  <option>Tired</option>
+					  <option>Headache</option>
+					  <option>Stomach ache</option>
+					  <option>Sick stomach</option>
+					  <option>Heartburn</option>
+					  <option>Pain</option>
+					  <option>Gas</option>
+					</datalist>
+					</div>
+				<div>
+					<label>What mood/feeling are you experiencing?</label>
+					<input type="text" list="feelings" />
+					<datalist id="feelings">
+					  <option>Happy</option>
+					  <option>Energetic</option>
+					  <option>Sad</option>
+					  <option>Lethargic</option>
+					  <option>Irratible</option>
+					  <option>Frustrated</option>
+					  <option>Nervous</option>
+					</datalist>
+					</div>
+				<div>
+					<label>How would you rate your symptom? (1=very minor - 10=severe)</label>
+					  <input type="number" name="quantity" min="1" max="10">
+				</div>
+			</form>
+		</section>
