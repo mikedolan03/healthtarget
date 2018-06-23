@@ -1,0 +1,66 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+	<title>My Health Target</title>
+	<link rel="stylesheet" type="text/css" href="main.css">
+</head>
+<body>
+	<header>
+		<nav>
+			Nav Bar - Log in
+		</nav>
+	</header>
+	<main>
+		<section>
+			<h1>Add a Day summary</h1>
+			-Hero Image-
+		</section>
+		<section>
+			<div>
+					<label>Date/Time</label>
+					<input type="time" name="time" placeholder="" id="time">
+					<input type="date" name="date" placeholder="" id="date">
+				</div>
+				<div>
+					<label>How would you rate your day? (1=bad - 10=Great)</label>
+					  <input type="number" name="dayRating" min="1" max="10">
+				</div>
+				<div>
+					<label>Tell us about your day:</label>
+					<input type="text" name="day-summary" placeholder="My day..." id="day-summary">
+				</div>
+				<div>
+					<label>What was your overall mood?</label>
+					<input type="text" list="feelings" />
+					<datalist id="feelings">
+					  <option>Happy</option>
+					  <option>Energetic</option>
+					  <option>Sad</option>
+					  <option>Lethargic</option>
+					  <option>Irratible</option>
+					  <option>Frustrated</option>
+					  <option>Nervous</option>
+					</datalist>
+					</div>
+					<div>
+					<label>How would you rate your overall pain / discomfort today? (1=very minor - 10=severe)</label>
+					  <input type="number" name="painrating" min="1" max="10">
+				</div>
+				<div>
+					<label>How would you rate your overall energy level today? (1=sloth - 10=energizer bunny)</label>
+					  <input type="number" name="painrating" min="1" max="10">
+				</div>
+				<div>
+				<label>Weight</label>
+					  <input type="number" name="weight" min="1" max="1000">
+				</div>
+				<div>
+				<label>Hours of sleep last night:</label>
+					  <input type="number" name="sleep" min="0" max="24">
+				</div>
+				<div>
+					<label>Optional- Any thing else you want to track today?</label>
+					<input type="text" name="extratrackeditem" placeholder="anything..." id="extratrackeditem">
+				</div>
+			</form>
+		</section>
